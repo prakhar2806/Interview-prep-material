@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Buy groceries",
+    "isChecked": false
+  },
+  {
+    "id": 2,
+    "name": "Finish project report",
+    "isChecked": false
+  },
+  {
+    "id": 3,
+    "name": "Book doctor's appointment",
+    "isChecked": true
+  },
+  {
+    "id": 4,
+    "name": "Clean the house",
+    "isChecked": false
+  },
+  {
+    "id": 5,
+    "name": "Pay utility bills",
+    "isChecked": true
+  },
+  {
+    "id": 6,
+    "name": "Call mom",
+    "isChecked": false
+  },
+  {
+    "id": 7,
+    "name": "Submit tax returns",
+    "isChecked": true
+  },
+  {
+    "id": 8,
+    "name": "Renew car insurance",
+    "isChecked": false
+  },
+  {
+    "id": 9,
+    "name": "Read a book",
+    "isChecked": false
+  },
+  {
+    "id": 10,
+    "name": "Exercise",
+    "isChecked": true
+  }
+]
