@@ -1,13 +1,3 @@
-// function sum(num1) {
-//   return function (val) {
-//     if (val) {
-//       return sum(val + num1);
-//     } else {
-//       return num1;
-//     }
-//   };
-// }
-
 function sum(num1) {
   return function (num2) {
     if (num2) {
