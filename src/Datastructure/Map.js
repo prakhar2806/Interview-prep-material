@@ -15,7 +15,7 @@ const map = new Map([
 
 map.set("city", "delhi");
 
-console.log(map.size) // 3
+console.log(map.size); // 3
 
 map.delete("hobby"); //deletes hobby
 
@@ -25,4 +25,4 @@ for (let [key, value] of map) {
   console.log(key + " " + value);
 }
 
-map.clear() //clears map
+map.clear(); //clears map

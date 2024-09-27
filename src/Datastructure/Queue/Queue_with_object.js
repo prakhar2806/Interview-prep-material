@@ -44,10 +44,10 @@ queue.enqueue(30);
 
 console.log(queue.size());
 
-console.log(queue.print());
+queue.print();
 
 console.log(queue.dequeue());
 
-console.log(queue.print());
+queue.print();
 
 console.log(queue.peek());

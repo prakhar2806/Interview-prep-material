@@ -165,7 +165,7 @@ bst.insert(7);
 // console.log(bst.search(bst.root, 15));
 // console.log(bst.search(bst.root, 7));
 
-// console.log(bst.levelOrder());
+console.log(bst.levelOrder());
 
 console.log(bst.min(bst.root));
 console.log(bst.max(bst.root));

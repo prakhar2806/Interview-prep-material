@@ -57,14 +57,14 @@ graph.addVertex("A");
 graph.addVertex("B");
 graph.addVertex("C");
 
-graph.addEdge("A", "B"); //A<-->B
-graph.addEdge("B", "C"); //B<-->C
+// graph.addEdge("A", "B"); //A<-->B
+// graph.addEdge("B", "C"); //B<-->C
 
 graph.print();
 
-console.log(graph.hasEdge("A", "B")); //true
-console.log(graph.hasEdge("A", "C")); //false
+// console.log(graph.hasEdge("A", "B")); //true
+// console.log(graph.hasEdge("A", "C")); //false
 
-// graph.removeEdge("A", "B");
-graph.removeVertex("A");
-graph.print();
+// // graph.removeEdge("A", "B");
+// graph.removeVertex("A");
+// graph.print();

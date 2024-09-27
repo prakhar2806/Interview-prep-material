@@ -136,17 +136,28 @@ class LinkedList {
     return -1;
   }
 
-  reverse() {
-    //https://www.youtube.com/watch?v=S9kMVEUg-x4&list=PLC3y8-rFHvwg6nsAOfC5Is18KB2DrVOJy&index=21
-    let prev = null;
+  // reverse() {
+  //   //https://www.youtube.com/watch?v=S9kMVEUg-x4&list=PLC3y8-rFHvwg6nsAOfC5Is18KB2DrVOJy&index=21
+  //   let prev = null;
+  //   let curr = this.head;
+  //   while (curr) {
+  //     let next = curr.next;
+  //     curr.next = prev;
+  //     prev = curr;
+  //     curr = next;
+  //   }
+  //   this.head = prev;
+  // }
+
+  findMiddle() {
     let curr = this.head;
+    let list = [];
     while (curr) {
+      list.push(curr);
       let next = curr.next;
-      curr.next = prev;
-      prev = curr;
       curr = next;
     }
-    this.head = prev;
+    console.log(list[list.length / 2]);
   }
 
   print() {
@@ -161,6 +172,7 @@ class LinkedList {
       }
       console.log(listValues);
     }
+    console.log("HEAD", this.head);
   }
 }
 
@@ -168,18 +180,20 @@ const list = new LinkedList();
 console.log("list is empty ? ", list.isEmpty());
 console.log("list size : ", list.getSize());
 
-// list.prepend(10);
-// list.prepend(20);
-// list.prepend(25);
-// list.prepend(30);
+list.prepend(10);
+list.prepend(20);
+list.prepend(25);
+list.prepend(30);
 
-list.append(10);
-list.append(20);
-list.append(25);
-list.append(30);
+// list.append(10);
+// list.append(20);
+// list.append(25);
+// list.append(30);
+// list.append(40);
 
 list.print();
 
+list.findMiddle();
 // list.append(40);
 
 // list.print();
@@ -204,14 +218,14 @@ list.print();
 
 // list.removeFrom(2);
 
-list.print();
+// list.print();
 
-// console.log(list.removeValue(30));
+// // console.log(list.removeValue(30));
 
-list.print();
+// list.print();
 
-console.log(list.search(40));
+// console.log(list.search(40));
 
-list.reverse();
+// list.reverse();
 
-list.print();
+// list.print();
